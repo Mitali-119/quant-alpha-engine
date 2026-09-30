@@ -1,3 +1,18 @@
+# Quantitative Alpha Signal Generator & ML Backtester
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://quant-alpha-engine-wnqnqzaqtbajwzsgwhlvfl.streamlit.app/)
+
+> 🚀 **Live Interactive Demo:** [quant-alpha-engine-wnqnqzaqtbajwzsgwhlvfl.streamlit.app](https://quant-alpha-engine-wnqnqzaqtbajwzsgwhlvfl.streamlit.app/)
+
+An end-to-end quantitative portfolio framework that extracts statistical signals (alphas) from raw market data, trains machine learning models (Ridge Regression, Random Forest) using walk-forward time-series validation, and evaluates strategies with quantitative metrics (Sharpe Ratio, Information Coefficient, Max Drawdown).
+
+---
+
+## 📌 Features
+- **Vectorized Alpha Extraction:** Cross-sectional ranking, rolling volatility, mean reversion, and momentum factors.
+- **Leakage-Free Validation:** Strict `TimeSeriesSplit` cross-validation to prevent lookahead bias.
+- **Quant Metrics Engine:** Computes daily Information Coefficient (IC), IC Information Ratio (ICIR), Sharpe Ratio, and Maximum Drawdown against the S&P 500 benchmark.
+
 # Quantitative Alpha Signal Generator & ML Backtesting Engine
 
 Panel pipeline that:
