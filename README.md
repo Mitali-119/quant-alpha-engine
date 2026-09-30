@@ -13,7 +13,7 @@ An end-to-end quantitative portfolio framework that extracts statistical signals
 - **Leakage-Free Validation:** Strict `TimeSeriesSplit` cross-validation to prevent lookahead bias.
 - **Quant Metrics Engine:** Computes daily Information Coefficient (IC), IC Information Ratio (ICIR), Sharpe Ratio, and Maximum Drawdown against the S&P 500 benchmark.
 
-# Quantitative Alpha Signal Generator & ML Backtesting Engine
+
 
 Panel pipeline that:
 
